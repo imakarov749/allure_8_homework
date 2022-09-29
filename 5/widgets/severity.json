@@ -1,0 +1,1 @@
+[{"uid":"1b754c40fdfe0576","name":"test_github","time":{"start":1664472047229,"stop":1664472048577,"duration":1348},"status":"broken","severity":"normal"},{"uid":"671fc175ece6e5d9","name":"test_dynamic_steps","time":{"start":1664472048696,"stop":1664472049417,"duration":721},"status":"broken","severity":"normal"}]
