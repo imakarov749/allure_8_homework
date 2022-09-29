@@ -130,6 +130,7 @@ dmypy.json
 
 #Allure
 tests/allure-results
+allure-results
 
 #idea
 .idea
