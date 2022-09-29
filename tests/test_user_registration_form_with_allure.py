@@ -1,8 +1,17 @@
+import allure
+from allure_commons.types import Severity
+
 from model.pages import registration_form
 
 
-# убрал фикстуры в этой версии, теперь браузер открывается и конфигурируется функцией
+# убрал фикстуры в этой версии теста, теперь браузер открывается и конфигурируется функцией
 
+@allure.tag("web")
+@allure.severity(Severity.CRITICAL)
+@allure.label('owner', 'imakarov749')
+@allure.feature('Регистрация пользователя в системе')
+@allure.story('Я, как пользователь, хочу иметь возможность регистрации на сайте')
+@allure.link('https://demoqa.com/automation-practice-form', name='Testing')
 def test_fill_registration_form():
     # GIVEN
 

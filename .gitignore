@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 #Allure
-allure-results
+tests/allure-results
 
 #idea
 .idea
